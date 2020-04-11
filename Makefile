@@ -6,9 +6,10 @@ all:
 	gcc -g simple_main.c -o simple_main
 	gcc -g all_data_types.c -o all_data_types
 	gcc -g operators.c -o operators
+	gcc -g conditions.c -o conditions
 
 clean:
 	rm hello hello_cmd_args hello_cmd_args_descending 
 	rm hello_cmd_args_descending_recursive simple_main
-	rm all_data_types operators
+	rm all_data_types operators conditions
 
